@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      text: ''
+      text: '이 단어가 보이면 axios가 안 되는 거예요!'
     }
   },
   async mounted() {
