@@ -14,7 +14,8 @@ export default {
     }
   },
   async mounted() {
-    await this.$api.get('/api/dummy').then((res) => {
+    // await this.$api.get('/api/dummy').then((res) => {
+    await this.$api.get('https://port-0-cloudack-6g2llfe1pmto.sel3.cloudtype.app/dummy').then((res) => {
       if (res.status === 200) {
         this.text = res.data;
       }
