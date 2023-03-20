@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import axios from 'axios'
-Vue.prototype.$api = axios
+import functions from '@/global/functions.js'
+Vue.use(functions)
 
 Vue.config.productionTip = false
 
